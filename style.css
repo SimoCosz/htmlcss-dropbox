@@ -145,3 +145,75 @@ nav{
     width: 66.66%;
     float: left;
 }
+
+        /* MAIN */
+
+main{
+    padding-top: 100px;
+}
+
+main>.col-title{
+    width: 680px;
+
+}
+
+.choose{
+    display: inline-block;
+    margin: 40px 10px;
+}
+
+.all-cards{
+    width: 645px;
+}
+
+.card{
+    padding: 15px;
+    border: 1px solid;
+    width: calc(33.33%);
+}
+
+.header-card{
+    padding: 5px;
+    text-align: center;
+}
+
+.main-card h3{
+    margin-bottom: 10px;
+}
+
+.price{
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.description{
+    font-size: 0.7rem;
+    color: #4C6274;
+}
+.first-section{
+    margin-bottom: 30px;
+}
+
+.list ul li{
+    font-size: 0.7rem;
+    margin-bottom: 10px;
+}
+
+.try-btn{
+    margin: 20px 0;
+}
+
+.try-btn a{
+    background-color: #0161FF;
+    color: white;
+    font-size: 0.7rem;
+    padding: 5px 20px;
+}
+
+.buy-btn{
+    font-size: 0.7rem;
+}
+
+.buy-btn::after{
+    content: &#9601;
+}

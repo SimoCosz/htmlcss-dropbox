@@ -37,6 +37,18 @@ nav{
     clear: both;
 }
 
+.overlay::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 7px;
+    bottom: 7px;
+    right: 7px;
+    left: 7px;
+    background-color: #A2D39B;
+    opacity: 1;
+}
+
 .container{
     width: 650px;
     margin: 0 auto;
@@ -282,6 +294,8 @@ i{
     font-size: 0.6rem;
 }
 
+/* PARTNER */
+
 .partner{
     margin-top: 100px;
 }
@@ -309,6 +323,8 @@ i{
     float: left;
 }
 
+/* FEATURE */
+
 .business-feature{
     margin-top: 50px;
 }
@@ -330,8 +346,10 @@ i{
     text-decoration: underline;
 }
 
+/* CLIENTS */
+
 .team{
-    margin-top: 100px;
+    margin: 100px 0 20px 0;
 }
 
 .team .container h2{
@@ -345,7 +363,15 @@ i{
     text-decoration: underline;
 }
 
+.clients{
+    margin-top: 30px;
+    width: 100%;
+}
+
+/*  clients sx  */
+
 .clients-badge-sx{
+    float: left;
     width: 30%;
 }
 
@@ -355,23 +381,167 @@ i{
     height: 142px;
 }
 
-#designit{
+.filter{
+    filter: invert(1);
+}
+
+.designit{
+    position: relative;
     background-color: #D0E9CD;
+
+}
+
+#designit{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90px;
+    z-index: 50;
+}
+
+
+.asu{
+    background-color: #61082B;
+    position: relative;
 }
 
 #asu{
-    background-color: #61082B;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90px;
+}
+
+.uf{
+    background-color: #0093CE;
+    position: relative;
 }
 
 #uf{
-    background-color: #0093CE;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90px;
+}
+
+.topps{
+    background-color: #FF1C1C;
+    position: relative;
 }
 
 #topps{
-    background-color: #FF1C1C;
-    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90px;
 }
 
-.badge img{
-    color: white;
+/* client description */
+
+.clients-description{
+    position: relative;
+    float: left;
+    width: 40%;
+    background-color: #F5F5F5;
+    min-height: 285px;
 }
+
+.logo-description{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    width: 30%;
+    height: 30px;
+}
+
+.description p{
+    font-size: 0.8rem;
+    padding: 100px 20px 0px 20px;
+}
+
+.description h6{
+    font-size: 0.8rem;
+    padding: 30px 20px 0px 20px;
+
+}
+
+
+
+
+/* client dx */
+.clients-badge-dx{
+    float: left;
+    width: 30%;
+}
+
+.badge{
+    float: left;
+    width: 50%;
+    height: 142px;
+} 
+
+.bicycle{
+    position: relative;
+    background-color: #D5021F;
+
+}
+
+#bicycle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90px;
+}
+
+
+.hearts{
+    background-color: #B4D0E7;
+    position: relative;
+}
+
+#hearts{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90px;
+}
+
+.lonely{
+    background-color: #0D2481;
+    position: relative;
+}
+
+#lonely{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90px;
+}
+
+.channel{
+    background-color: #FFD82F;
+    position: relative;
+}
+
+#channel{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90px;
+}
+
+
+
+
+
+
+
+

@@ -23,21 +23,22 @@ a{
 }
 
 header{
-    width: 100%;
+    max-width: 100%;
 }
 
 nav{
-    width: 100%;
+    max-width: 100%;
     height: 60px;
 }
 
-.clerafix::after{
+.clearfix::after{
     content: "";
     display: block;
     clear: both;
 }
 
 .container{
+    width: 650px;
     margin: 0 auto;
 }
 
@@ -94,7 +95,7 @@ nav{
 .jumbo{
     background-color: #B4D0E7;
     position: relative;
-    width: 100%;
+    max-width: 100%;
     min-height: 500px;
 }
 
@@ -115,13 +116,13 @@ nav{
     font-size: 1.4rem;
 }
 
-.jumbo .col-paragraph{
+.jumbo--container .col-paragraph{
     font-size: 0.8rem;
     float: left;
     width: 33.33%;
 }
 
-.jumbo .col-paragraph p{
+.jumbo--container .col-paragraph p{
     margin-bottom: 20px;
 }
 
@@ -141,7 +142,7 @@ nav{
     padding: 5px;
 }
 
-.jumbo .col-img{
+.jumbo--container .col-img{
     width: 66.66%;
     float: left;
 }
@@ -152,8 +153,8 @@ main{
     padding-top: 100px;
 }
 
-main>.col-title{
-    width: 680px;
+section>.title-card{
+    max-width: 645px;
 
 }
 
@@ -163,21 +164,35 @@ main>.col-title{
 }
 
 .all-cards{
-    width: 645px;
+    max-width: 645px;
 }
 
 .card{
-    padding: 15px;
-    border: 1px solid;
-    width: calc(33.33%);
+    float: left;
+    margin-left: 30px;
+    padding-left: 10px;
+    border: 1px solid #D4D5D7;
+    width: calc(33.33% - 20px);
+    height: 650px;
+}
+
+.main-card{
+    margin-bottom: 20px;
+}
+
+.card:first-child{
+    margin-left: 0;
 }
 
 .header-card{
+    margin: 0;
+    border-bottom: 1px solid #D4D5D7;
+    width: 100%;
     padding: 5px;
     text-align: center;
 }
 
-.main-card h3{
+main [class*="-card"] h3, main [class*="-card"] h5{
     margin-bottom: 10px;
 }
 
@@ -187,19 +202,24 @@ main>.col-title{
     margin-bottom: 5px;
 }
 .description{
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     color: #4C6274;
 }
-.first-section{
+.card .first-section{
     margin-bottom: 30px;
 }
 
 .list ul li{
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     margin-bottom: 10px;
 }
 
+i{
+    padding: 5px;
+}
+
 .try-btn{
+    text-align: center;
     margin: 20px 0;
 }
 
@@ -207,13 +227,151 @@ main>.col-title{
     background-color: #0161FF;
     color: white;
     font-size: 0.7rem;
-    padding: 5px 20px;
+    padding: 5px 5px;
+    margin: 0 10px 0 0;
+
 }
 
 .buy-btn{
     font-size: 0.7rem;
+    margin-bottom: 20px;
 }
 
-.buy-btn::after{
-    content: &#9601;
+.buy-btn a{
+    color: #0161FF;
+}
+.card .main-card::after{
+    content: "";
+    display: block;
+    border: 1px solid #D4D5D7;
+    width: 29px;
+}
+
+.footer-card .list li i{
+    font-size: 10px;
+    color: #0161FF;
+}
+.card-horizontal{
+    margin-top: 30px;
+    float: left;
+    border: 1px solid #D4D5D7;
+    width: 100%;
+}
+
+.card-horizontal .col-text{
+    padding: 20px;
+    width: 70%;
+    float: left;
+}
+
+.col-btn-office{
+    padding: 20px;
+    font-size: 0.6rem;
+    max-width: 30%;
+    color: white;
+    float: left;
+}
+
+.col-btn-office a{
+    padding: 5px 20px;
+    background-color: #0161FF;
+}
+
+
+.card-horizontal .col-text p{
+    font-size: 0.6rem;
+}
+
+.partner{
+    margin-top: 100px;
+}
+
+.partner .col-paragraph{
+    font-size: 0.7rem;
+    float: left;
+    width: calc(50% - 20px);
+
+}
+
+.partner  .col-paragraph p{
+    margin-bottom: 20px;
+
+}
+
+.partner .col-paragraph a{
+    border: 1px solid;
+    padding: 5px 10px;
+}
+
+.partner .col-img{
+    margin-right: 20px;
+    width: calc(50% - 20px);
+    float: left;
+}
+
+.business-feature{
+    margin-top: 50px;
+}
+
+.wrap{
+    float: left;
+    margin: 30px 20px 0 0;
+    width: calc(33.33% - 20px);
+}
+.wrap h4{
+    margin-top: 10px;
+}
+.wrap p{
+    margin-top: 10px;
+    font-size: 0.7rem;
+}
+
+.wrap p a{
+    text-decoration: underline;
+}
+
+.team{
+    margin-top: 100px;
+}
+
+.team .container h2{
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.team .container a{
+    margin-bottom: 20px;
+    color: #0161FF;
+    text-decoration: underline;
+}
+
+.clients-badge-sx{
+    width: 30%;
+}
+
+.badge{
+    float: left;
+    width: 50%;
+    height: 142px;
+}
+
+#designit{
+    background-color: #D0E9CD;
+}
+
+#asu{
+    background-color: #61082B;
+}
+
+#uf{
+    background-color: #0093CE;
+}
+
+#topps{
+    background-color: #FF1C1C;
+    color: white;
+}
+
+.badge img{
+    color: white;
 }

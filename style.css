@@ -1,6 +1,7 @@
 html{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 *{
@@ -78,6 +79,10 @@ nav{
     float: left;
 }
 
+.nav-left .col-nav li:hover{
+    color: grey;
+}
+
         /* NAV RIGHT */
 .nav-right{
     line-height: 30px;
@@ -96,6 +101,11 @@ nav{
     float: left;
 }
 
+.nav-right .col-nav li:hover{
+    color: grey;
+}
+
+
 .col-btn a{
     background-color: #0161FF;
     color: white;
@@ -103,6 +113,11 @@ nav{
     margin-left: 20px;
     float: right;
 }
+.col-btn a:hover{
+    background-color: blue;
+    box-shadow: 5px 5px 5px grey;
+}
+
 
         /* JUMBOTRON */
 
@@ -146,6 +161,11 @@ nav{
     padding: 5px 10px;
 }
 
+.col-paragraph a:nth-child(2):hover{
+    background-color: blue;
+    box-shadow: 5px 5px 5px grey;
+}
+
 .jumbo .col-paragraph section{
     margin-top: 10px;
 }
@@ -154,6 +174,10 @@ nav{
     font-size: 1.5rem;
     margin-top: 30px;
     padding: 5px;
+}
+
+.col-paragraph i:hover{
+    text-shadow: 5px 5px 5px grey;
 }
 
 .jumbo--container .col-img{
@@ -237,13 +261,19 @@ i{
     margin: 20px 0;
 }
 
+
 .try-btn a{
     background-color: #0161FF;
     color: white;
     font-size: 0.7rem;
     padding: 5px 5px;
     margin: 0 10px 0 0;
+    
+}
 
+.try-btn a:hover{
+    background-color: blue;
+    box-shadow: 5px 5px 5px grey;
 }
 
 .buy-btn{
@@ -254,6 +284,11 @@ i{
 .buy-btn a{
     color: #0161FF;
 }
+
+.buy-btn a:hover{
+    text-decoration: underline;
+}
+
 .card .main-card::after{
     content: "";
     display: block;
@@ -291,6 +326,10 @@ i{
     background-color: #0161FF;
 }
 
+.col-btn-office a:hover{
+    background-color: blue;
+    box-shadow: 5px 5px 5px grey;
+}
 
 .card-horizontal .col-text p{
     font-size: 0.6rem;
@@ -319,6 +358,12 @@ i{
     padding: 5px 10px;
 }
 
+.partner .col-paragraph a:hover{
+    background-color: grey;
+    color: white;
+    box-shadow: 5px 5px 5px grey;
+}
+
 .partner .col-img{
     margin-right: 20px;
     width: calc(50% - 20px);
@@ -345,10 +390,14 @@ i{
 }
 
 .wrap p a{
+    color: blue;
+}
+
+.wrap p a:hover{
     text-decoration: underline;
 }
 
-/* CLIENTS */
+/* TEAMS */
 
 .team{
     margin: 100px 0 0px 0;
@@ -360,8 +409,12 @@ i{
 }
 
 .team .container a{
+    padding: 5px;
     margin-bottom: 20px;
     color: #0161FF;
+}
+
+.team .container a:hover{
     text-decoration: underline;
 }
 
@@ -381,6 +434,11 @@ i{
     float: left;
     width: 50%;
     height: 142px;
+    opacity: 1;
+}
+
+.badge:hover{
+    opacity: 0.7;
 }
 
 .filter{
@@ -460,6 +518,10 @@ i{
     height: 30px;
 }
 
+.logo-description:hover{
+    opacity: 0.7;
+}
+
 .description p{
     font-size: 0.8rem;
     padding: 100px 20px 0px 20px;
@@ -469,6 +531,10 @@ i{
     font-size: 0.8rem;
     padding: 30px 20px 0px 20px;
 
+}
+
+.description h6:hover{
+    color: black;
 }
 
 
@@ -566,6 +632,12 @@ i{
     font-size: 0.7rem;
 }
 
+.prova a:hover{
+    background-color: grey;
+    color: white;
+    box-shadow: 5px 5px 5px white;
+}
+
 .box-ask h3{
     margin-top: 100px;
     padding-bottom: 25px;
@@ -613,6 +685,10 @@ footer h5{
 footer li{
     font-size: 0.7rem;
     margin-bottom: 5px;
+}
+
+footer li:hover{
+    text-decoration: underline;
 }
 
 .select-language{

@@ -13,7 +13,7 @@
 <body>
     
     <header>
-        <nav>
+        <nav id="nav">
             <div class="nav-left clearfix">
                 <div class="col-logo">
                     <a href="#"><img src="img/logo-small.png" alt=""></a>
@@ -47,9 +47,9 @@
                 </div>
                 <div class="col-paragraph">
                     <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo inteligente e integrato per ottimizzare il flusso di lavoro esistente</p>
-                    <a href="#"> Iniza la tua prova gratuita</a>
+                    <a href="#free-try"> Iniza la tua prova gratuita</a>
                     <section>Annulla in qualsiasi momento</section>
-                    <a href="#"><i class="fas fa-arrow-down"></i></a></i>
+                    <a href="#free-try"><i class="fas fa-arrow-down"></i></a></i>
                 </div>
                 <div class="col-img">
                     <img src="img/jumbo.png" alt="">
@@ -61,7 +61,7 @@
     <main>
         <!-- CARD SECTION START-->
         <section>
-            <div class="title-card container">
+            <div id="free-try" class="title-card container">
                 <h2>Trova il piano Dropbox Business che fa per te</h2>
                 <div class="choose">
                     <input type="radio" id="month" name="fatturazione" value="mensile">
@@ -219,12 +219,13 @@
                                 <p>Soluzioni personalizzate su misura per aiutare i professionisti IT nella gestione su quaksiasi scala.</p>
                             </div>
                             <div class="col-btn-office">
-                                <a href="#">Contatta l'ufficio vendite</a>
+                                <a href="#nav">Contatta l'ufficio vendite</a>
                             </div>    
                     </div>
                 </div>
         </section>
-        <!-- CARD SECTION END -->
+
+        <!-- PARTNER SECTION START -->
         <section class="partner clearfix">
             <div class="container">
                 <div class="col-img">
@@ -233,10 +234,12 @@
                 <div class="col-paragraph">
                     <h2>Entra in contatto con un partner dropbox</h2>
                     <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo inteligente e integrato per ottimizzare il flusso di lavoro esistente</p>
-                    <a href="#">Trova un partner</a>
+                    <a href="#partner">Trova un partner</a>
                 </div>
             </div>
         </section>
+
+        <!-- BUSINESS FEATURE SECTION START -->
         <section class="business-feature clearfix">
             <div class="container">
                 <h2>Esegui più operazioni con Dropbox Business</h2>
@@ -280,88 +283,93 @@
             </div>
 
         </section>
-        <section class="team">
+
+        <!-- TEAM SECTION START -->
+        <section id="partner" class="team">
             <div class="container">
                 <h2>Più di 500.000 team <br> utilizzano Dropox Business</h2>
-                <a href#">Scopri di più sui nostri clienti</a>
+                <a href="#">Scopri di più sui nostri clienti</a>
             </div>
             <div class="clients clearfix">
                 <div class="clients-badge-sx">
 
-                    <div class="badge designit overlay">
+                    <a href="#"><div class="badge designit overlay">
                         <div id="designit">
                             <img class="filter" src="img/designit.svg" alt="">
                         </div>
-                    </div>
+                    </div></a>
 
-                    <div class="badge asu">
+                    <a href="#"><div class="badge asu">
                         <div id="asu">
                             <img class="filter" src="img/arizona_state_university.svg" alt="">
                         </div>
-                    </div>
+                    </div></a>
 
-                    <div class="badge uf">
+                    <a href="#"><div class="badge uf">
                         <div id="uf">
                             <img class="filter" src="img/university_of_florida.svg" alt="">
                         </div>
-                    </div>
+                    </div></a>
 
-                    <div class="badge topps">
+                    <a href="#"><div class="badge topps">
                         <div id="topps">
                             <img class="filter" src="img/topps.svg" alt="">
                         </div>
-
-                    </div>
+                    </div></a>
                 </div>
                 <div class="clients-description">
                         <div class="logo-description">
-                            <img src="img/designit.svg" alt="">
+                            <a href=""><img src="img/designit.svg" alt=""></a>
                         </div>
                         <div class="description">
                             <p>"I membri del nostro team lavorano costantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatubili con queste esigenza, ma nessuna è facile quanto Dropbox e Dropboxpaper. Ora molte soluzioni sono compatubili con queste esigenza, ma nessuna è facile quanto Dropboxpaper".</p>
-                            <h6>Morten Thomsen, Global IT Lead</h6>
+                            <a href="#"><h6>Morten Thomsen, Global IT Lead</h6></a>
                         </div>
                 </div>
                 <div class="clients-badge-dx">
-                    <div class="badge bicycle">
+                    <a href="#"><div class="badge bicycle">
                         <div id="bicycle">
                             <img filter class="filter" src="img/world_bicycle_relief.svg" alt="">
                         </div>
-                    </div>
+                    </div></a>
 
-                    <div class="badge hearts">
+                    <a href="#"><div class="badge hearts">
                         <div id="hearts">
                             <img filter class="filter" src="img/hearst_corp.svg" alt="">
                         </div>
-                    </div>
+                    </div></a>
 
-                    <div class="badge lonely">
+                    <a href="#"><div class="badge lonely">
                         <div id="lonely">
                             <img filter class="filter" src="img/lonely_planet.svg" alt="">
                         </div>
-                    </div>
+                    </div></a>
 
-                    <div class="badge channel">
+                    <a href="#"><div class="badge channel">
                         <div id="channel">
                             <img filter class="filter" src="img/clear_channel.svg" alt="">
                         </div>
-                    </div>
+                    </div></a>
 
 
 
                 </div>
             </div>
         </section>
+        
+        <!-- LAST JUMBO SECTION START -->
         <section class=" jumbo last-jumbo">
             <div class="container clearfix">
                 <div>
                     <h2>Porta Dropbox Business nella tua azienda.</h2>
                 </div>
                 <div class="prova">
-                    <a href="#">Inizia la tua prova gratuita</a>
+                    <a href="#free-try">Inizia la tua prova gratuita</a>
                 </div>
             </div>
         </section>
+
+        <!-- BOX-ASK SECTION START -->
         <section class="box-ask">
             <div class="container title-ask">
                 <h3>Domande frequenti</h3>
@@ -401,22 +409,22 @@
             <div class="col-1">
                 <h5>Dropbox</h5>
                 <ul>
-                    <li><a href="">Applicazione desktop</a></li>
-                    <li><a href="">Perchè Dropbox</a></li>
-                    <li><a href="">Piani</a></li>
-                    <li><a href="">Sicurezza</a></li>
-                    <li><a href="">Funzioni</a></li>
+                    <li><a href="#">Applicazione desktop</a></li>
+                    <li><a href="#">Perchè Dropbox</a></li>
+                    <li><a href="#">Piani</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Funzioni</a></li>
                 </ul>
             </div>
 
             <div class="col-2">
                 <h5>Prodotti</h5>
                 <ul>
-                    <li><a href="">Applicazione desktop</a></li>
-                    <li><a href="">Perchè Dropbox</a></li>
-                    <li><a href="">Piani</a></li>
-                    <li><a href="">Sicurezza</a></li>
-                    <li><a href="">Funzioni</a></li>
+                    <li><a href="#">Applicazione desktop</a></li>
+                    <li><a href="#">Perchè Dropbox</a></li>
+                    <li><a href="#">Piani</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Funzioni</a></li>
                 </ul>
             </div>
 
@@ -424,31 +432,31 @@
             <div class="col-3">
                 <h5>Azienda</h5>
                 <ul>
-                    <li><a href="">Applicazione desktop</a></li>
-                    <li><a href="">Perchè Dropbox</a></li>
-                    <li><a href="">Piani</a></li>
-                    <li><a href="">Sicurezza</a></li>
-                    <li><a href="">Funzioni</a></li>
+                    <li><a href="#">Applicazione desktop</a></li>
+                    <li><a href="#">Perchè Dropbox</a></li>
+                    <li><a href="#">Piani</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Funzioni</a></li>
                 </ul>
             </div>
 
             <div class="col-4">
                 <h5>Supporto</h5>
                 <ul>
-                    <li><a href="">Applicazione desktop</a></li>
-                    <li><a href="">Perchè Dropbox</a></li>
-                    <li><a href="">Piani</a></li>
-                    <li><a href="">Sicurezza</a></li>
-                    <li><a href="">Funzioni</a></li>
+                    <li><a href="#">Applicazione desktop</a></li>
+                    <li><a href="#">Perchè Dropbox</a></li>
+                    <li><a href="#">Piani</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Funzioni</a></li>
                 </ul>
             </div>
 
             <div class="col-5">
                 <h5>Comunity</h5>
                 <ul>
-                    <li><a href="">Applicazione desktop</a></li>
-                    <li><a href="">Perchè Dropbox</a></li>
-                    <li><a href="">Piani</a></li>
+                    <li><a href="#">Applicazione desktop</a></li>
+                    <li><a href="#">Perchè Dropbox</a></li>
+                    <li><a href="#">Piani</a></li>
                 </ul>
             </div>
         </div>

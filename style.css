@@ -518,6 +518,15 @@ i{
     height: 30px;
 }
 
+.logo-description::after{
+    content: '';
+    display: block;
+    width: 45px;
+    height: 1px;
+    margin-top: 10px;
+    background-color: lightgrey;
+}
+
 .logo-description:hover{
     opacity: 0.7;
 }

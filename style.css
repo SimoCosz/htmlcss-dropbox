@@ -434,11 +434,11 @@ i{
     float: left;
     width: 50%;
     height: 142px;
-    opacity: 1;
+    border: 10px solid rgba(255, 255, 255, 0);
 }
 
 .badge:hover{
-    opacity: 0.7;
+    border: 10px solid rgba(255, 255, 255, 0.5);
 }
 
 .filter{
@@ -447,7 +447,7 @@ i{
 
 .designit{
     position: relative;
-    background-color: #D0E9CD;
+    background-color: #A2D39B;
 
 }
 
